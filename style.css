@@ -8,12 +8,10 @@
 }
 
 body {
-    box-sizing: border-box;
     background-color: var(--slate-300);
     display: flex;
     align-items: center;
     height: 100vh;
-    margin: 0;
 }
 
 .card {
@@ -28,6 +26,7 @@ body {
     margin-right: auto;
     padding: 5px;
     border-radius: 20px;
+    box-shadow: 2px 2px 15px var(--slate-500);
 }
 
 .card-content {
@@ -37,7 +36,7 @@ body {
 
 img {
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 h1 {
